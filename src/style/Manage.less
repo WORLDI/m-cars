@@ -1,0 +1,55 @@
+.manage-layout {
+    min-height: 100%;
+    height: fit-content;
+
+    &-logo {
+        height: 48px;
+        margin: 16px;
+        background: rgba(255, 255, 255, 0.3);
+    }
+
+    &-sider {
+
+    }
+
+    &-right {
+
+        &-header {
+            height: 84px;
+            padding: 0;
+            position: relative;
+            background: rgba(17, 145, 230, 0.5);
+            display: flex;
+            align-items: center;
+            background-image: url(../assets/bj.jpg);
+            background-position: 100% 100%;
+
+            &-container {
+                position: absolute;
+                right: 10px;
+                
+                & > span {
+                    margin: 8px;
+                    cursor: pointer;
+                }
+            }
+        }
+
+        &-content {
+            margin: 0 16px;
+
+            &-bread {
+                margin: 16px 0;
+                
+                &:hover{
+                    cursor: pointer;
+                }
+            }
+        }
+
+        &-footer {
+            text-align: center;
+            margin-top: auto;
+        }
+    }
+}

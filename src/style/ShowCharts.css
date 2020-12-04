@@ -1,0 +1,16 @@
+.charts-layout {
+  min-height: 100%;
+  height: fit-content;
+  margin-top: 0;
+  padding-top: 0;
+}
+.charts-layout-content {
+  text-align: center;
+}
+.charts-layout-content-bread {
+  text-align: left;
+}
+.charts-layout-content .site-layout-background {
+  padding: 24;
+  min-height: 360;
+}

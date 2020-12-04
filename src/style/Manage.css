@@ -1,0 +1,40 @@
+.manage-layout {
+  min-height: 100%;
+  height: fit-content;
+}
+.manage-layout-logo {
+  height: 48px;
+  margin: 16px;
+  background: rgba(255, 255, 255, 0.3);
+}
+.manage-layout-right-header {
+  height: 84px;
+  padding: 0;
+  position: relative;
+  background: rgba(17, 145, 230, 0.5);
+  display: flex;
+  align-items: center;
+  background-image: url(../assets/bj.jpg);
+  background-position: 100% 100%;
+}
+.manage-layout-right-header-container {
+  position: absolute;
+  right: 10px;
+}
+.manage-layout-right-header-container > span {
+  margin: 8px;
+  cursor: pointer;
+}
+.manage-layout-right-content {
+  margin: 0 16px;
+}
+.manage-layout-right-content-bread {
+  margin: 16px 0;
+}
+.manage-layout-right-content-bread:hover {
+  cursor: pointer;
+}
+.manage-layout-right-footer {
+  text-align: center;
+  margin-top: auto;
+}
